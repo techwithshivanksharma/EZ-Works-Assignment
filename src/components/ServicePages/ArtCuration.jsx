@@ -18,7 +18,7 @@ const ArtCuration = () => {
       className="relative bg-cover bg-center min-h-screen flex flex-col justify-start items-center text-[#252729] overflow-hidden px-4 sm:px-8 md:px-16 lg:px-24 pt-24 pb-16"
       style={{ backgroundImage: `url(${BG})` }}
     >
-      {/* ============ Top Left: VFilms Logo & Back Button ============ */}
+      {/*  Back Button */}
       <div className="absolute top-6 left-6 flex flex-col items-start gap-3 z-30">
         {/* Back Button */}
         <button
@@ -44,7 +44,7 @@ const ArtCuration = () => {
         </button>
       </div>
 
-      {/* ============ Quote Section ============ */}
+      {/*  Quote Section */}
       <div className="text-center relative mt-16 sm:mt-5 ">
         <h2 className="text-[#252729] text-base sm:text-lg md:text-2xl italic font-medium max-w-3xl mx-auto leading-relaxed">
           "V take art where it belongs, to the people." – Vernita Verma
@@ -56,7 +56,7 @@ const ArtCuration = () => {
         />
       </div>
 
-      {/* ============ Main Content Section ============ */}
+      {/* Main Content  */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 mt-8 w-full">
         {/* Left Side - Image Card */}
         <div className="relative">
@@ -89,7 +89,7 @@ const ArtCuration = () => {
             <li>Cultural Storytelling</li>
           </ul>
 
-          {/* Explore Now Button */}
+        
           <div className="flex mx-auto flex-col cursor-pointer hover:scale-[1.1] justify-center md:justify-start items-center mt-6 gap-2">
             <span className="text-[#C9502D] font-medium text-base sm:text-lg">
               Explore Now
@@ -103,7 +103,6 @@ const ArtCuration = () => {
         </div>
       </div>
 
-      {/* ============ Decorative Icons ============ */}
       {/* Bottom-left Icon */}
       <img
         src={Icon1}

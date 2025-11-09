@@ -5,7 +5,6 @@ import Underline from "../../assets/images/ServiceData/Underline.png";
 import Image1 from "../../assets/images/ServiceData/Image1.png";
 import Image2 from "../../assets/images/ServiceData/Image2.png";
 import Image3 from "../../assets/images/ServiceData/Image3.png";
-import VFilms from "../../assets/images/AboutUs/VFilms Logo.png";
 import Tape from "../../assets/images/ServiceData/Tape.png";
 import { useNavigate } from "react-router-dom";
 
@@ -22,7 +21,7 @@ const AllServices = () => {
         backgroundPosition: "center",
       }}
     >
-      {/* Logo */}
+      {/* Section Name */}
       <div className="absolute top-6 left-2">
         <p
           className="text-xm sm:text-2xl font-semibold italic tracking-wide

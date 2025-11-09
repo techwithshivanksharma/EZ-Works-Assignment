@@ -1,6 +1,5 @@
 import React from "react";
 import BG from "../../assets/images/FilmProductionData/BG.png";
-import VFilms from "../../assets/images/FilmProductionData/VFilms Logo.png";
 import Underline from "../../assets/images/FilmProductionData/Underline.png";
 import FilmImage from "../../assets/images/FilmProductionData/FilmImage1.png";
 import ExploreArrow from "../../assets/images/FilmProductionData/Arrow.svg";
@@ -18,9 +17,8 @@ const FilmProduction = () => {
       className="relative min-h-screen  bg-cover bg-center py-16 md:py-24 lg:py-20 overflow-hidden"
       style={{ backgroundImage: `url(${BG})` }}
     >
-      {/* --- Top-left logo and back button --- */}
+      {/* Back button  */}
       <div className="absolute top-6 left-6 z-30 flex flex-col items-start space-y-3">
-        {/* Back Button (below VFilms logo) */}
         <button
           onClick={() => navigate(-1)}
           className="flex my-10 items-center gap-2 bg-transparent text-black px-4 py-1.5 rounded-full shadow-md border border-black/20 hover:bg-[#d94e1f] hover:text-white transition text-sm sm:text-base"

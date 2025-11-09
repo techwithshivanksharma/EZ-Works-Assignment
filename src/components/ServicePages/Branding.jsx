@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import BG from "../../assets/images/BrandingPageImages/BG.png";
-import VFilms from "../../assets/images/BrandingPageImages/VFilms Logo.png";
 import Underline from "../../assets/images/BrandingPageImages/Underline.png";
 import BrandingImage from "../../assets/images/BrandingPageImages/Frame 17.png";
 import ExploreArrow from "../../assets/images/BrandingPageImages/Arrow.svg";
@@ -17,7 +16,7 @@ const Branding = () => {
       className="relative bg-cover bg-center min-h-screen flex flex-col justify-start items-center text-[#252729] overflow-hidden px-4 sm:px-8 md:px-16 lg:px-24 pt-24 pb-16"
       style={{ backgroundImage: `url(${BG})` }}
     >
-      {/* ============ Top Left: VFilms Logo & Back Button ============ */}
+      {/* Back Button */}
       <div className="absolute top-6 left-6 flex flex-col items-start gap-3 z-30">
         {/* Back Button */}
         <button
@@ -43,7 +42,7 @@ const Branding = () => {
         </button>
       </div>
 
-      {/* ============ Quote Section ============ */}
+      {/* Quote Section */}
       <div className="text-center relative mt-16 sm:mt-5 ">
         <h2 className="text-[#252729] text-base sm:text-lg md:text-2xl italic font-medium max-w-3xl mx-auto leading-relaxed">
           "A brand is a voice, and a product is a souvenir." – Lisa Gansky
@@ -55,11 +54,11 @@ const Branding = () => {
         />
       </div>
 
-      {/* ============ Main Content Section ============ */}
+      {/* Main Content */}
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 mt-8 w-full">
         {/* Left Side - Image Card */}
         <div className="relative">
-          {/* Image Card with Border */}
+          {/* Image Card */}
           <div className="border-2 p-5 border-[#4B6FAE]  rounded-md overflow-hidden bg-white shadow-md hover:shadow-xl transition">
             <img
               src={BrandingImage}
@@ -72,7 +71,6 @@ const Branding = () => {
           </div>
         </div>
 
-        {/* Right Side - Text Content */}
         <div className="max-w-md text-center md:text-left">
           <p className="text-sm sm:text-base md:text-lg leading-relaxed mb-4">
             A brand isn’t just what you see – it’s what you remember, what you
@@ -89,7 +87,6 @@ const Branding = () => {
             <li>Rebranding</li>
           </ul>
 
-          {/* Explore Now Button */}
           <div className="flex mx-auto flex-col cursor-pointer hover:scale-[1.1] justify-center md:justify-start items-center mt-6 gap-2">
             <span className="text-[#C9502D] font-medium text-base sm:text-lg">
               Explore Now
@@ -103,7 +100,6 @@ const Branding = () => {
         </div>
       </div>
 
-      {/* ============ Decorative Icons ============ */}
       {/* Bottom-left Icon */}
       <img
         src={IconBadge}

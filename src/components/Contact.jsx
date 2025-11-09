@@ -1,6 +1,5 @@
 import React from "react";
 import BG from "../assets/images/ContactImg/BG.png";
-import VFilms from "../assets/images/ContactImg/VFilms Logo.png";
 import MandalaLeft from "../assets/images/ContactImg/Vector2.png";
 import MandalaRight from "../assets/images/ContactImg/Vector1.png";
 import { useState } from "react";
@@ -110,14 +109,13 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* Mandala Left */}
+      {/*Left Design*/}
       <img
         src={MandalaLeft}
         alt="Mandala Left"
         className="absolute bottom-0 left-0 w-40 sm:w-56 md:w-64 opacity-80 pointer-events-none"
       />
-
-      {/* Mandala Right */}
+      {/* Right Design*/}
       <img
         src={MandalaRight}
         alt="Mandala Right"
@@ -136,9 +134,8 @@ const Contact = () => {
         </p>
       </div>
 
-      {/* Right Section (Heading + Form) */}
+      {/* Right Section (Form Section) */}
       <div className="relative z-10 w-full md:w-1/2 flex flex-col items-center md:mr-15">
-        {/* Heading above form */}
         <div className="text-center mb-6">
           <h2 className="text-2xl md:text-3xl font-semibold mb-2">
             Join the Story
@@ -148,7 +145,7 @@ const Contact = () => {
           </p>
         </div>
 
-        {/* White Form Box */}
+        {/* Form */}
         <div className="w-[80%]  rounded-lg p-6 sm:p-4">
           <form className="flex flex-col space-y-4" onSubmit={handleSubmit}>
             <input

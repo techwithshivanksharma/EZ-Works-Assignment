@@ -3,7 +3,6 @@ import Card from "../assets/images/AboutTeam/Card.png";
 import IndiaGate from "../assets/images/AboutTeam/IndiaGate.png";
 import BG from "../assets/images/AboutTeam/BG.png";
 import TeamImage from "../assets/images/AboutTeam/TeamImage.png";
-import VFilms from "../assets/images/AboutTeam/VFilms Logo.png";
 import Vector1 from "../assets/images/AboutTeam/Vector1.png";
 import Vector2 from "../assets/images/AboutTeam/Vector2.png";
 import Vector3 from "../assets/images/AboutTeam/Vector3.png";
@@ -19,7 +18,7 @@ const AboutTeam = () => {
         backgroundPosition: "center",
       }}
     >
-      {/* Logo */}
+      {/* Section name */}
       <div className="absolute top-6 left-2">
         <p
           className="text-xm sm:text-2xl font-semibold italic tracking-wide
@@ -34,17 +33,17 @@ const AboutTeam = () => {
         </p>
       </div>
 
-      {/* Sticky Note */}
+      {/* Text Note */}
       <div className="absolute top-24  md:left-20 md:top-0 transform -rotate-3 py-16 w-52 md:w-100 drop-shadow-lg hidden md:block">
         <img src={Card} alt="Sticky Note" className="w-full" />
       </div>
 
-      {/* India Gate */}
+      {/* India Gate Logo*/}
       <div className="absolute bottom-10 left-6 opacity-80  md:block hidden">
         <img src={IndiaGate} alt="India Gate" className="w-30 md:w-58" />
       </div>
 
-      {/* --- Main Content Container --- */}
+      {/* Main Content Area*/}
       <div className="flex flex-col items-center justify-center mt-20 md:ml-60">
         <div className="relative flex justify-center">
           {/* Team Image */}
@@ -54,8 +53,7 @@ const AboutTeam = () => {
             className="w-[80%] md:w-[500px] mx-auto"
           />
 
-          {/* ---------------- LABELS + ARROWS (DESKTOP ONLY) ---------------- */}
-          {/* Film Makers */}
+          {/* For DESKTOP ONLY */}
           <div className="hidden md:flex flex-col absolute -top-14 left-[25%] items-center">
             <span
               className="text-[#0F3255] italic text-base"
@@ -70,7 +68,6 @@ const AboutTeam = () => {
             />
           </div>
 
-          {/* Branding Experts */}
           <div className="hidden md:flex flex-col absolute top-[40%] -left-32 items-center">
 
             <img
@@ -86,7 +83,6 @@ const AboutTeam = () => {
             </span>
           </div>
 
-          {/* Art Curators */}
           <div className="hidden md:flex flex-col absolute top-[30%] -right-28 items-center">
             <span
               className="text-[#0F3255] italic text-base whitespace-nowrap"
@@ -102,14 +98,14 @@ const AboutTeam = () => {
           </div>
         </div>
 
-        {/* ---------------- MOBILE LABELS (SAFE NON-OVERLAPPING) ---------------- */}
+        {/* ----------------For MOBILE Screen ---------------- */}
         <div className="flex gap-4 text-center mt-6 md:hidden">
           <span className="text-[#0F3255] italic text-sm">Film Makers</span>
           <span className="text-[#0F3255] italic text-sm">||   Branding Experts</span>
           <span className="text-[#0F3255] italic text-sm">||   Art Curators</span>
         </div>
 
-        {/* CTA Section */}
+      
         <div className="text-center mt-20">
           <p
             className="text-[#0F3255] text-lg md:text-xl font-light mb-4"
